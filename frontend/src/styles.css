@@ -1,0 +1,6 @@
+html, body { margin: 0; padding: 0; }
+* { box-sizing: border-box; }
+button { cursor: pointer; }
+a { color: #0d6efd; text-decoration: none; }
+a:hover { text-decoration: underline; }
+table th, table td { border-bottom: 1px solid #eee; padding: 8px; }

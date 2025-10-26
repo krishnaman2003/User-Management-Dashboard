@@ -1,0 +1,152 @@
+# =========================
+# OS / System files
+# =========================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Python
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+backend/.venv/
+
+# Testing / coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+*.cover
+.hypothesis/
+
+# Type checkers / caches
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Packaging logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Local settings / secrets
+*.env
+backend/.env
+# keep .env.example if present
+
+# Database / runtime files
+*.db
+*.sqlite
+*.sqlite3
+instance/
+*.pid
+*.log
+
+# =========================
+# Node / Frontend
+# =========================
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+build/
+.out/
+public/build/
+.vite/
+.cache/
+.parcel-cache/
+.next/
+.svelte-kit/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files
+.env.local
+.env.*.local
+frontend/.env
+
+# Temporary / misc
+*.tgz
+
+# =========================
+# IDEs / Editors
+# =========================
+# VS Code
+.vscode/
+.vscode/*
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs / others
+*~
+*.swp
+*.swo
+.project
+.metadata
+.session
+.cache/
+
+# =========================
+# Misc
+# =========================
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.orig
+*.log
+
+# End of file
