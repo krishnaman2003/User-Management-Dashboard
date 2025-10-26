@@ -1,3 +1,4 @@
+# User-Management-Dashboard
 # User Management Dashboard
 
 A full-stack user management dashboard. This repository contains a Python FastAPI backend and a React frontend.
