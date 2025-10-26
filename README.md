@@ -35,8 +35,7 @@ A full-stack user management dashboard. This repository contains a Python FastAP
 ## Quick start (Windows PowerShell)
 Prerequisites:
 - Python 3.8+
-- Node.js (14+) and npm (or yarn)
-- Git (optional)
+- Node.js (14+) and npm
 
 Open two PowerShell windows or tabs (one for backend, one for frontend).
 
@@ -82,22 +81,6 @@ npm run dev
 
 The screenshots used by this README are stored in the repository under the `screenshots/` folder. The images will render on GitHub when referenced with the correct relative paths.
 
-Below is a simple 2x2 gallery (Markdown table) that displays the images side-by-side on GitHub:
-
-| Empty dashboard | Create user (empty) |
-| --- | --- |
-| ![Empty dashboard](screenshots/dashboard-empty.png)  
-*Figure 1 — Empty dashboard* | ![Create user (empty)](screenshots/create-user-form-empty.jpeg)  
-*Figure 2 — Create user form (empty)* |
-
-| Create user (filled) | Dashboard with user |
-| --- | --- |
-| ![Create user (filled)](screenshots/create-user-form-filled.jpeg)  
-*Figure 3 — Create user form (filled)* | ![Dashboard with user](screenshots/dashboard-with-user.jpeg)  
-*Figure 4 — Dashboard with a user listed* |
-
-If you prefer, here are the same images one-by-one in plain Markdown:
-
 ![Empty dashboard](screenshots/dashboard-empty.png)  
 *Figure 1 — Empty dashboard*
 
@@ -109,22 +92,6 @@ If you prefer, here are the same images one-by-one in plain Markdown:
 
 ![Dashboard with user](screenshots/dashboard-with-user.jpeg)  
 *Figure 4 — Dashboard with a user listed*
-
-Notes:
-- The relative paths (screenshots/...) will work as long as the images are committed to the repository at the same path as the README. If your README is in a different branch, ensure the images exist on that branch.
-- If you want to use absolute URLs (for example to show images from a specific branch), use raw GitHub URLs like:
-  https://raw.githubusercontent.com/krishnaman2003/User-Management-Dashboard/main/screenshots/dashboard-empty.png
-
-## Environment variables
-Edit `backend/.env` before running the backend. Typical values you might see or want to set:
-```
-# backend/.env (example)
-DATABASE_URL=sqlite:///./dev.db
-SECRET_KEY=replace-this-with-a-secure-random-string
-ENV=development
-PORT=8000
-```
-(If your project uses a different DB or credentials, set `DATABASE_URL` accordingly. Do not commit real secrets.)
 
 ## Build / Production (summary)
 - Frontend: build static assets:
