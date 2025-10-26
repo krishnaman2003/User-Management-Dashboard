@@ -78,6 +78,58 @@ npm run dev
 - Frontend: open the dev server URL (commonly `http://localhost:3000` or Vite `http://localhost:5173`) — check the console output when running `npm start`.
 - Backend API docs (FastAPI): `http://127.0.0.1:8000/docs` (Swagger UI) or `http://127.0.0.1:8000/redoc`
 
+## Screenshots
+The screenshots are stored in the repository under the `screenshots/` folder and are referenced below:
+
+- Image 1 — Empty dashboard: screenshots/dashboard-empty.png  
+- Image 2 — Create user form (empty): screenshots/create-user-form-empty.jpeg  
+- Image 3 — Create user form (filled): screenshots/create-user-form-filled.jpeg  
+- Image 4 — Dashboard with user: screenshots/dashboard-with-user.jpeg
+
+Example (responsive two-column gallery):
+
+<details>
+<summary>Screenshot gallery (click to expand)</summary>
+
+<div style="display:flex;gap:1rem;flex-wrap:wrap;">
+  <figure style="width:48%;">
+    <img src="screenshots/dashboard-empty.png" alt="Dashboard — no users" style="width:100%;height:auto;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.08);">
+    <figcaption style="text-align:center;font-size:0.9rem;margin-top:0.4rem;">(1) Empty dashboard</figcaption>
+  </figure>
+
+  <figure style="width:48%;">
+    <img src="screenshots/create-user-form-empty.jpeg" alt="Create user form (empty)" style="width:100%;height:auto;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.08);">
+    <figcaption style="text-align:center;font-size:0.9rem;margin-top:0.4rem;">(2) Create user form (empty)</figcaption>
+  </figure>
+
+  <figure style="width:48%;">
+    <img src="screenshots/create-user-form-filled.jpeg" alt="Create user form (filled)" style="width:100%;height:auto;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.08);">
+    <figcaption style="text-align:center;font-size:0.9rem;margin-top:0.4rem;">(3) Create user form (filled)</figcaption>
+  </figure>
+
+  <figure style="width:48%;">
+    <img src="screenshots/dashboard-with-user.jpeg" alt="Dashboard with one user" style="width:100%;height:auto;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.08);">
+    <figcaption style="text-align:center;font-size:0.9rem;margin-top:0.4rem;">(4) Dashboard with one user</figcaption>
+  </figure>
+</div>
+
+</details>
+
+If you prefer plain Markdown (one-by-one):
+```
+![Empty dashboard](screenshots/dashboard-empty.png)
+*Figure 1 — Empty dashboard*
+
+![Create user (empty)](screenshots/create-user-form-empty.jpeg)
+*Figure 2 — Create user form (empty)*
+
+![Create user (filled)](screenshots/create-user-form-filled.jpeg)
+*Figure 3 — Create user form (filled)*
+
+![Dashboard with user](screenshots/dashboard-with-user.jpeg)
+*Figure 4 — Dashboard with a user listed*
+```
+
 ## Environment variables
 Edit `backend/.env` before running the backend. Typical values you might see or want to set:
 ```
