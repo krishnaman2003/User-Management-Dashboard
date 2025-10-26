@@ -79,56 +79,41 @@ npm run dev
 - Backend API docs (FastAPI): `http://127.0.0.1:8000/docs` (Swagger UI) or `http://127.0.0.1:8000/redoc`
 
 ## Screenshots
-The screenshots are stored in the repository under the `screenshots/` folder and are referenced below:
 
-- Image 1 — Empty dashboard: screenshots/dashboard-empty.png  
-- Image 2 — Create user form (empty): screenshots/create-user-form-empty.jpeg  
-- Image 3 — Create user form (filled): screenshots/create-user-form-filled.jpeg  
-- Image 4 — Dashboard with user: screenshots/dashboard-with-user.jpeg
+The screenshots used by this README are stored in the repository under the `screenshots/` folder. The images will render on GitHub when referenced with the correct relative paths.
 
-Example (responsive two-column gallery):
+Below is a simple 2x2 gallery (Markdown table) that displays the images side-by-side on GitHub:
 
-<details>
-<summary>Screenshot gallery (click to expand)</summary>
+| Empty dashboard | Create user (empty) |
+| --- | --- |
+| ![Empty dashboard](screenshots/dashboard-empty.png)  
+*Figure 1 — Empty dashboard* | ![Create user (empty)](screenshots/create-user-form-empty.jpeg)  
+*Figure 2 — Create user form (empty)* |
 
-<div style="display:flex;gap:1rem;flex-wrap:wrap;">
-  <figure style="width:48%;">
-    <img src="screenshots/dashboard-empty.png" alt="Dashboard — no users" style="width:100%;height:auto;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.08);">
-    <figcaption style="text-align:center;font-size:0.9rem;margin-top:0.4rem;">(1) Empty dashboard</figcaption>
-  </figure>
+| Create user (filled) | Dashboard with user |
+| --- | --- |
+| ![Create user (filled)](screenshots/create-user-form-filled.jpeg)  
+*Figure 3 — Create user form (filled)* | ![Dashboard with user](screenshots/dashboard-with-user.jpeg)  
+*Figure 4 — Dashboard with a user listed* |
 
-  <figure style="width:48%;">
-    <img src="screenshots/create-user-form-empty.jpeg" alt="Create user form (empty)" style="width:100%;height:auto;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.08);">
-    <figcaption style="text-align:center;font-size:0.9rem;margin-top:0.4rem;">(2) Create user form (empty)</figcaption>
-  </figure>
+If you prefer, here are the same images one-by-one in plain Markdown:
 
-  <figure style="width:48%;">
-    <img src="screenshots/create-user-form-filled.jpeg" alt="Create user form (filled)" style="width:100%;height:auto;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.08);">
-    <figcaption style="text-align:center;font-size:0.9rem;margin-top:0.4rem;">(3) Create user form (filled)</figcaption>
-  </figure>
-
-  <figure style="width:48%;">
-    <img src="screenshots/dashboard-with-user.jpeg" alt="Dashboard with one user" style="width:100%;height:auto;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.08);">
-    <figcaption style="text-align:center;font-size:0.9rem;margin-top:0.4rem;">(4) Dashboard with one user</figcaption>
-  </figure>
-</div>
-
-</details>
-
-If you prefer plain Markdown (one-by-one):
-```
-![Empty dashboard](screenshots/dashboard-empty.png)
+![Empty dashboard](screenshots/dashboard-empty.png)  
 *Figure 1 — Empty dashboard*
 
-![Create user (empty)](screenshots/create-user-form-empty.jpeg)
+![Create user (empty)](screenshots/create-user-form-empty.jpeg)  
 *Figure 2 — Create user form (empty)*
 
-![Create user (filled)](screenshots/create-user-form-filled.jpeg)
+![Create user (filled)](screenshots/create-user-form-filled.jpeg)  
 *Figure 3 — Create user form (filled)*
 
-![Dashboard with user](screenshots/dashboard-with-user.jpeg)
+![Dashboard with user](screenshots/dashboard-with-user.jpeg)  
 *Figure 4 — Dashboard with a user listed*
-```
+
+Notes:
+- The relative paths (screenshots/...) will work as long as the images are committed to the repository at the same path as the README. If your README is in a different branch, ensure the images exist on that branch.
+- If you want to use absolute URLs (for example to show images from a specific branch), use raw GitHub URLs like:
+  https://raw.githubusercontent.com/krishnaman2003/User-Management-Dashboard/main/screenshots/dashboard-empty.png
 
 ## Environment variables
 Edit `backend/.env` before running the backend. Typical values you might see or want to set:
